@@ -28,14 +28,14 @@ html{
   padding: 0 15px;
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px){
 
   .container{ /* Контейнер для планшетной версии */
     max-width: 768px;
   }
 }
 
-@media (max-width: 1158px){
+@media (min-width: 1158px){
 
   .container{ /* Контейнер для комп. версии */
     max-width: 1158px;

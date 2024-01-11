@@ -7,7 +7,7 @@
     <title>LinkedIn Makeover</title>
     
     <script type="module" crossorigin src="/Helper2.0/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Helper2.0/assets/index-e0876e00.css">
+    <link rel="stylesheet" href="/Helper2.0/assets/index-3b06d4ca.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -394,32 +394,42 @@ If you find yourself resonating with Kasia's initial doubts, let me guide you to
         <p class="textFormUnderTitle">Leave your data and I will contact you within 24 hours</p>
         <form action="#" class="mainForm" id="mainFormID">
             <div class="wrapperFormInputs">
-                <label for="userNameLabel" class="inputForm">Name *</label>
-                <input id="userNameLabel" type="text" name="userName" class="inputInForm" required>
+                <label for="userNameLabel" class="inputForm">
+                    <input id="userNameLabel" type="text" name="userName" class="inputInForm" required>
+                    <span class="placeholderInInput">Name *</span>
+                </label>
             </div>
             <div class="wrapperFormInputs">
-                <label for="whoAreYouLabel" class="inputForm">Who are you? *</label>
-                <input id="whoAreYouLabel" type="text" name="userWhoAreYou" class="inputInForm" required>
+                <label for="whoAreYouLabel" class="inputForm">
+                    <input id="whoAreYouLabel" type="text" name="userWhoAreYou" class="inputInForm" required>
+                    <span class="placeholderInInput">Who are you? *</span>
+                </label>
             </div>
             <div class="wrapperFormInputs">
-                <label for="userEmailLabel" class="inputForm">Email address *</label>
-                <input id="userEmailLabel" type="text" name="userEmail" class="inputInForm" required>
+                <label for="userEmailLabel" class="inputForm">
+                    <input id="userEmailLabel" type="text" name="userEmail" class="inputInForm" required>
+                    <span class="placeholderInInput">Email address *</span>
+                </label>
             </div>
             <div class="wrapperFormInputs">
-                <label for="userPhoneLabel" class="inputForm">Phone number</label>
-                <input id="userPhoneLabel" type="text" name="userPhone" class="inputInForm">
+                <label for="userPhoneLabel" class="inputForm">
+                    <input id="userPhoneLabel" type="text" name="userPhone" class="inputInForm">
+                    <span class="placeholderInInput">Phone number</span>
+                </label>
             </div>
             <div class="wrapperFormInputs">
-                <label for="userCommentLabel" class="inputForm">To write something...</label>
-                <textarea id="userCommentLabel" name="userComments" class="inputInForm"></textarea>
+                <label for="userCommentLabel" class="inputForm">
+                    <textarea id="userCommentLabel" name="userComments" class="inputInForm"></textarea>
+                    <span class="placeholderInInput">To write something...</span>
+                </label>
             </div>
-            <div class="wrapperFormInputs">
-                <input type="checkbox" name="checkboxInput" id="checkboxInputID">
+            <div class="wrapperFormInputs wrapperFormInputsMargin">
+                <input type="checkbox" name="checkboxInput" id="checkboxInputID" required>
                 <label for="checkboxInputID" class="checkboxFormLabel">I have read and agree to the <span class="checkboxPrivacyPolicy"><a class="checkboxPrivacyPolicyLink" href="#">Privacy Policy</a></span></label>
             </div>
             <button class="btnSendForm" type="submit">Submit</button>
         </form>
-        <img src="/Helper2.0/assets/form-bed3df9b.webp" alt="form" width="680" height="510" loading="lazy">
+        <img class="formIMG" src="/Helper2.0/assets/form-bed3df9b.webp" alt="form" width="680" height="510" loading="lazy">
     </div>
 </section>
 

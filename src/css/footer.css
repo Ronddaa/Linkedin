@@ -1,0 +1,85 @@
+footer{
+    padding: 50px 0 10px;
+    background-color: #000D39;
+}
+
+.wrapperMainInfoFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.wrapperMainLogoName{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.mainLogoFooter{
+    max-width: 87px;
+}
+
+.wrapperMainNameFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textUnderTitleFooter{
+    opacity: 0.6;
+}
+
+.wrapperContactInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerLinkPhone, .footerLinkEmail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footerLinkInfoSVG{
+    fill: #fff;
+}
+
+.wrapperSocialLinkFooter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footerLinkToSocial{
+    fill: #fff;
+}
+
+.footerNav{
+    display: none;
+}
+
+.wrapperHelperList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.linkToHelper{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footerTextAbout{
+    text-align: center;
+    opacity: 0.6;
+    font-size: 12px;
+}

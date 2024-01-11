@@ -1,0 +1,39 @@
+.titleFutureMobile{
+    color: #FFF621;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.futureIMG{
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.wrapperFutureTitleText{
+    max-width: 276px;
+    margin-right: auto;
+}
+
+.titleFutureDesc{
+    display: none;
+}
+
+.textFuture{
+    margin-bottom: 20px;
+}
+
+.futureList{
+    list-style: disc;
+    margin-bottom: 30px;
+}
+
+.btnFuture{
+    padding: 16px 36px;
+    background-color: #FFF621;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #173ab9;
+    font-weight: 700;
+}

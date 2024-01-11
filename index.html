@@ -7,7 +7,7 @@
     <title>LinkedIn Makeover</title>
     
     <script type="module" crossorigin src="/Helper2.0/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Helper2.0/assets/index-3b06d4ca.css">
+    <link rel="stylesheet" href="/Helper2.0/assets/index-016c7dac.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -407,20 +407,19 @@ If you find yourself resonating with Kasia's initial doubts, let me guide you to
             </div>
             <div class="wrapperFormInputs">
                 <label for="userEmailLabel" class="inputForm">
-                    <input id="userEmailLabel" type="text" name="userEmail" class="inputInForm" required>
+                    <input id="userEmailLabel" type="email" name="userEmail" class="inputInForm" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     <span class="placeholderInInput">Email address *</span>
                 </label>
             </div>
             <div class="wrapperFormInputs">
                 <label for="userPhoneLabel" class="inputForm">
-                    <input id="userPhoneLabel" type="text" name="userPhone" class="inputInForm">
+                    <input id="userPhoneLabel" type="text" name="userPhone" class="inputInForm" required>
                     <span class="placeholderInInput">Phone number</span>
                 </label>
             </div>
             <div class="wrapperFormInputs">
                 <label for="userCommentLabel" class="inputForm">
-                    <textarea id="userCommentLabel" name="userComments" class="inputInForm"></textarea>
-                    <span class="placeholderInInput">To write something...</span>
+                    <textarea id="userCommentLabel" name="userComments" class="inputInForm" placeholder="To write something..."></textarea>
                 </label>
             </div>
             <div class="wrapperFormInputs wrapperFormInputsMargin">

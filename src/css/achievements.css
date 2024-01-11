@@ -1,0 +1,28 @@
+.wrapperAchievementsList{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.achievementsList{
+    background-color: #2152FF;
+    padding: 22px 26px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 6.9px 0px rgba(33, 82, 255, 0.60), 2px 2px 3.8px 0px rgba(255, 255, 255, 0.25) inset;
+}
+
+.achievementsListLow{
+    padding: 22px 60px;
+    margin: 0 auto;
+}
+
+.titleAchievements{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.textUnderTitleAchievements{
+    font-weight: 500;
+}

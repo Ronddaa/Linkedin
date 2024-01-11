@@ -1,0 +1,21 @@
+header{
+    padding: 15px 0;
+}
+
+.navHeader{
+    display: none;
+}
+
+.wrapperSocialLinkHeader{
+    display: none;
+}
+
+.wrapperHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burgerMenu{
+    fill: #fff;
+}

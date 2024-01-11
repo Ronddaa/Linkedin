@@ -21,6 +21,11 @@ html{
   background-color: #121212;
   color: #fff;
   font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+section{
+  margin-bottom: 90px;
 }
 
 .container{ /* Контейнер для моб. версии */

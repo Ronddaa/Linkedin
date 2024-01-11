@@ -1,0 +1,82 @@
+.titlePackages{
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.titlePackages::before, .titlePackages::after{
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #FFF621;
+}
+
+.wrapperCardLevel{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cardLevel{
+    padding: 35px 25px;
+    background-color: #fff;
+    color: #2152FF;
+    border-radius: 15px;
+}
+
+.cardLevel:nth-child(2){
+    background-color: #2152FF;
+    color: #fff;
+}
+
+.titleCardLevel{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cardLevelList{
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.cardListOpacity{
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.btnPackagesCard{
+    background-color: #2152FF;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.btnPackagesCardBlue{
+    background-color: #FFF621;
+    color: #2152FF;
+}
+
+.wrapperGift{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.cardListGift{
+    font-weight: 700;
+}

@@ -1,0 +1,50 @@
+.titleHowWork{
+    font-size: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleHowWork::before, .titleHowWork::after{
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #FFF621;
+}
+
+.wrapperHowWorkContent{
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperHowWorkContentReverse{
+    flex-direction: column-reverse;
+}
+
+.titleHowWorkNumber{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.titleHowWorkList{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.textHowWorkContent{
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.howWorkListIMG{
+    max-width: 80%;
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,35 @@
+.titleStudy{
+    color: #FFF621;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.studyGirlIMG{
+    margin-bottom: 10px;
+}
+
+.wrapperKasiaRaiting{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.nameStudyGirl{
+    margin-bottom: 10px;
+}
+
+.titleCaseStudy{
+    display: none;
+}
+
+.textCaseStudy{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.textCaseStudy:last-child{
+    margin-bottom: 0;
+}

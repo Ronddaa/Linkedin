@@ -1,0 +1,67 @@
+.titleReviews{
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleReviews::before, .titleReviews::after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #FFF621;
+}
+
+.wrapperReviewsComments{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+}
+
+.userCommentsReviews{
+    background-color: #fff;
+    padding: 18px 22px;
+    border-radius: 15px;
+    color: #000;
+}
+
+.wrapperUserNameRaitingReviews{
+    display: flex;
+    gap: 8px;
+}
+
+.wrapperUserNameRaitingReviews{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.userPhoto{
+    border-radius: 50%;
+}
+
+.titleUsernameReviews{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.textUserClass{
+    opacity: 0.5;
+}
+
+.titleUserNameReviewsAhmed{
+    display: none;
+}
+
+.wrapperCommentsStar{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.commentsStar{
+    fill: #FFF621;
+}

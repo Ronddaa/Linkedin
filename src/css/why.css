@@ -1,0 +1,40 @@
+.titleWhy{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF621;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.wrapperWhyContent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.whyContentList{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.whySVG{
+    fill: #FFF621;
+}
+
+.whyContentTitleText{
+    max-width: 267px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.whyTitleListContent{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.whyTextListContent{
+    font-weight: 500;
+    opacity: 0.7;
+}

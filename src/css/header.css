@@ -24,3 +24,35 @@ header{
 .burgerMenu:focus, .burgerMenu:hover{
     fill: #f2ff79;
 }
+
+@media (min-width: 768px){
+    .navHeader{
+        display: block;
+    }
+
+    .burgerMenu{
+        display: none;
+    }
+
+    .wrapperSocialLinkHeader{
+        display: flex;
+    }
+
+    .listToSocialLinkHeader:first-child,
+    .listToSocialLinkHeader:last-child{
+        display: none;
+    }
+
+    .listNavHeader{
+        display: flex;
+        gap: 20px;
+    }
+
+    .navigationLinkHeader{
+        color: #fff;
+    }
+
+    .svgLinkToSociaHeader{
+        fill: #fff;
+    }
+}

@@ -45,3 +45,34 @@
 .mainTextLast{
     margin-bottom: 0;
 }
+
+@media (min-width: 768px){
+
+    .mainTextFirst{
+        display: inline;
+    }
+
+    .mainTextLast{
+        display: none;
+    }
+
+    .wrapperHero{
+        display: flex;
+    }
+
+    .mainTitle{
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    .mainText{
+        max-width: 450px;
+        line-height: 1.6;
+        letter-spacing: 1.2px;
+    }
+
+    .yellowBackG{
+        border-radius: 78% 69% 90% 72%;
+        height: 288px;
+    }
+}

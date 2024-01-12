@@ -18,4 +18,9 @@ header{
 
 .burgerMenu{
     fill: #fff;
+    transition: 0.3s;
+}
+
+.burgerMenu:focus, .burgerMenu:hover{
+    fill: #f2ff79;
 }

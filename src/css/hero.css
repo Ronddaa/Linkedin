@@ -23,11 +23,23 @@
 
 .wrapperMainPhoto{
     margin-bottom: 20px;
+    position: relative;
 }
 
 .mainPhoto{
+    border-radius: 40% 40% 49% 40%;
+}
+
+.yellowBackG{
+    height: 350px;
+    width: 280px;
     background-color: #FFF621;
-    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    z-index: -1;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40% 40% 46% 35%;
 }
 
 .mainTextLast{

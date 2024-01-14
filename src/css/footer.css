@@ -85,5 +85,20 @@ footer{
 }
 
 @media (min-width: 768px){
-    
+    .wrapperFooter{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .titleFooter{
+        font-size: 22px;
+    }
+
+    .wrapperSocialLinkFooter{
+        max-width: 280px;
+    }
+
+    .wrapperHelperList{
+        gap: 40px;
+    }
 }

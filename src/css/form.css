@@ -103,6 +103,10 @@
     display: none;
 }
 
+.inputInFormTextarea{
+    resize: none;
+}
+
 @media (min-width: 768px){
     .titleForm{
         font-size: 35px;
@@ -121,5 +125,5 @@
     .wrapperFormInputs:nth-child(4) { grid-area: 2 / 1 / 3 / 6; }
     .wrapperFormInputs:nth-child(5) { grid-area: 2 / 6 / 3 / 13; }
     .wrapperFormInputs:nth-child(6) { grid-area: 3 / 1 / 4 / 9; }
-    .wrapperFormInputs:last-child { grid-area: 4 / 1 / 5 / 4; }
+    .btnSendForm:last-child { grid-area: 4 / 1 / 5 / 4; }
 }

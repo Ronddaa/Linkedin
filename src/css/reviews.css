@@ -65,3 +65,21 @@
 .commentsStar{
     fill: #FFF621;
 }
+
+@media (min-width: 768px){
+    .titleReviews{
+        font-size: 35px;
+    }
+
+    .wrapperReviewsComments{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+
+    .userCommentsReviews:first-child{grid-area: 1 / 1 / 4 / 6;}
+    .userCommentsReviews:last-child{grid-area: 1 / 6 / 4 / 11;}
+    .userCommentsReviews:nth-child(2){grid-area: 4 / 3 / 7 / 9;}
+}

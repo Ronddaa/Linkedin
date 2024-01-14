@@ -33,3 +33,18 @@
 .textCaseStudy:last-child{
     margin-bottom: 0;
 }
+
+@media (min-width: 768px){
+    .titleStudy{
+        font-size: 35px;
+    }
+
+    .wrapperStudyContent{
+        display: flex;
+        gap: 20px;
+    }
+
+    .wrapperStudyPhoto{
+        min-width: 233px;
+    }
+}

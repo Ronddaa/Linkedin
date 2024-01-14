@@ -48,3 +48,35 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media (min-width: 768px){
+    .titleHowWork{
+        font-size: 35px;
+    }
+
+    .wrapperHowWorkList{
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+
+    .wrapperHowWorkContent{
+        flex-direction: row;
+        gap: 60px;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .titleHowWorkNumber{
+        font-size: 35px;
+    }
+
+    .titleHowWorkList{
+        font-size: 20px;
+    }
+
+    .howWorkListIMG{
+        max-width: 200px;
+        max-height: 183px;
+    }
+}

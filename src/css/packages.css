@@ -84,3 +84,18 @@
 .cardListGift{
     font-weight: 700;
 }
+
+@media (min-width: 768px){
+    .titlePackages{
+        font-size: 35px;
+    }
+
+    .wrapperCardLevel{
+        flex-direction: row;
+        min-width: 0;
+    }
+
+    .cardLevel{
+        max-width: 298px;
+    }
+}

@@ -26,3 +26,14 @@
 .textUnderTitleAchievements{
     font-weight: 500;
 }
+
+@media (min-width: 768px){
+    .wrapperAchievementsList{
+        flex-direction: row;
+    }
+
+    .achievementsList{
+        width: calc((100% - 30px) / 3);
+        padding: 25px 20px;
+    }
+}

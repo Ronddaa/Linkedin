@@ -93,9 +93,15 @@
     .wrapperCardLevel{
         flex-direction: row;
         min-width: 0;
+        gap: 0;
     }
 
     .cardLevel{
         max-width: 298px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 550px;
+        margin-right: 0;
     }
 }

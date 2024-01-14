@@ -2,7 +2,7 @@ import Swiper from 'swiper/bundle';
 
 'use strict'
 
-const swiperAuction = new Swiper('.swiper-margin', {
+new Swiper('.swiper-container', {
   // Optional parameters
   direction: 'horizontal',
     loop: false,
@@ -19,5 +19,10 @@ const swiperAuction = new Swiper('.swiper-margin', {
   autoHeight: true,
 
   spaceBetween: 20,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  }
 
 });

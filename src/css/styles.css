@@ -33,6 +33,7 @@ section{
   max-width: 375px;
   margin: 0 auto;
   padding: 0 15px;
+  overflow: hidden;
 }
 
 @media (min-width: 768px){

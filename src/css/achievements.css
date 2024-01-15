@@ -37,3 +37,17 @@
         padding: 25px 20px;
     }
 }
+
+@media (min-width: 1158px){
+    .wrapperAchievementsList{
+        gap: 30px;
+    }
+
+    .achievementsList{
+        padding: 60px 90px;
+    }
+
+    .titleAchievements{
+        font-size: 65px;
+    }
+}

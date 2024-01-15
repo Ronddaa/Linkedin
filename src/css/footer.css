@@ -102,3 +102,27 @@ footer{
         gap: 40px;
     }
 }
+
+@media (min-width: 1158px){
+    .footerNav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textMenuFooterNav{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 35px;
+    }
+
+    .footerNavList{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navigationLink{
+        color: #fff;
+        font-size: 22px;
+    }
+}

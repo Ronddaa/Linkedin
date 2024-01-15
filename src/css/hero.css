@@ -77,3 +77,25 @@
         width: 90%;
     }
 }
+
+@media (min-width: 1158px){
+
+    .wrapperHero{
+        justify-content: space-between;
+    }
+
+    .mainTitleText{
+        max-width: 700px;
+    }
+
+    .mainTitle{
+        font-size: 60px;
+        margin-bottom: 130px;
+    }
+
+    .mainText{
+        max-width: 700px;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+}

@@ -48,3 +48,37 @@
         min-width: 233px;
     }
 }
+
+@media (min-width: 1158px){
+
+    .wrapperStudyContent{
+        justify-content: center;
+    }
+
+    .titleStudy{
+        display: none;
+    }
+
+    .wrapperCaseStudy{
+        max-width: 565px;
+    }
+
+    .titleCaseStudy{
+        display: inline-block;
+        font-size: 60px;
+        margin-bottom: 40px;
+        color: #FFF621;
+    }
+
+    .wrapperKasiaRaiting{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nameStudyGirl{
+        font-size: 40px;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+}

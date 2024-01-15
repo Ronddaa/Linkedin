@@ -56,3 +56,23 @@ header{
         fill: #fff;
     }
 }
+
+@media (min-width: 1158px){
+
+    header{
+        margin-bottom: 80px;
+    }
+
+    .listNavHeader{
+        gap: 30px;
+    }
+
+    .listToSocialLinkHeader:first-child,
+    .listToSocialLinkHeader:last-child{
+        display: inline-block;
+    }
+
+    .wrapperSocialLinkHeader{
+        gap: 20px;
+    }
+}

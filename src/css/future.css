@@ -75,3 +75,30 @@
         max-width: 100%;
     }
 }
+
+@media (min-width: 1158px){
+    .wrapperFuture{
+        gap: 40px;
+    }
+
+    .futureIMG{
+        max-width: 530px;
+        max-height: 530px;
+    }
+    .titleFutureDesc{
+        font-size: 60px;
+        margin-bottom: 60px;
+    }
+
+    .textFuture{
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .futureList{
+        font-size: 16px;
+        max-width: 520px;
+        margin-bottom: 60px;
+    }
+}

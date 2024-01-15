@@ -80,3 +80,22 @@
         max-height: 183px;
     }
 }
+
+@media (min-width: 1158px){
+    .titleHowWork{
+        font-size: 60px;
+    }
+
+    .titleHowWorkList{
+        font-size: 40px;
+    }
+
+    .textHowWorkContent{
+        max-width: 620px;
+    }
+
+    .howWorkListIMG{
+        max-width: 350px;
+        max-height: 320px;
+    }
+}

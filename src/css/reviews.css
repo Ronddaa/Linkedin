@@ -66,6 +66,11 @@
     fill: #FFF621;
 }
 
+.userPhoto{
+    max-width: 55px;
+    max-height: 55px;
+}
+
 @media (min-width: 768px){
     .titleReviews{
         font-size: 35px;
@@ -82,4 +87,22 @@
     .userCommentsReviews:first-child{grid-area: 1 / 1 / 4 / 6;}
     .userCommentsReviews:last-child{grid-area: 1 / 6 / 4 / 11;}
     .userCommentsReviews:nth-child(2){grid-area: 4 / 3 / 7 / 9;}
+}
+
+@media (min-width: 1158px){
+    .titleReviews{
+        font-size: 60px;
+        margin-bottom: 100px;
+    }
+
+    .wrapperReviewsComments{
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 30px;
+    }
+
+    .userCommentsReviews:first-child { grid-area: 1 / 1 / 5 / 5; }
+    .userCommentsReviews:last-child { grid-area: 6 / 1 / 10 / 5; }
+    .userCommentsReviews:nth-child(2) { grid-area: 3 / 6 / 8 / 10; }
 }

@@ -23,6 +23,7 @@ html{
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
+  transition: 0.3s;
 }
 
 section{
@@ -49,8 +50,16 @@ section{
 
 @media (min-width: 1158px){
 
+  html{
+    font-size: 22px;
+  }
+
   .container{ /* Контейнер для комп. версии */
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 0 100px;
+  }
+
+  section{
+    margin-bottom: 140px;
   }
 }

@@ -127,3 +127,50 @@
     .wrapperFormInputs:nth-child(6) { grid-area: 3 / 1 / 4 / 9; }
     .btnSendForm:last-child { grid-area: 4 / 1 / 5 / 4; }
 }
+
+@media (min-width: 1158px){
+    .form{
+        font-size: 16px;
+        background-image: none;
+        background-color: #fff;
+        padding: 150px 0;
+    }
+
+    .titleForm{
+        font-size: 60px;
+    }
+
+    .textFormUnderTitle{
+        max-width: 748px;
+    }
+
+    .mainForm{
+        max-width: 480px;
+    }
+
+    .checkboxFormLabel{
+        color: #000;
+        opacity: 0.8;
+    }
+
+    .checkboxPrivacyPolicyLink{
+        color: #2152FF;
+        opacity: 1;
+        text-decoration: underline;
+    }
+
+    .mainForm{
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .btnSendForm:last-child { grid-area: 4 / 1 / 5 / 6; }
+
+    .formIMG{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-15%, -15%);
+        border-radius: 875px 320px 875px 320px; 
+    }
+}

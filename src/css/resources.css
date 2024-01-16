@@ -18,6 +18,9 @@
 .listResources{
     list-style: disc;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .titleAboutResources{
@@ -33,4 +36,9 @@
 
 .textBetween, .textUnder{
     margin-bottom: 30px;
+}
+
+.linkToYouTubeResources{
+    color: #fff;
+    text-decoration: underline;
 }

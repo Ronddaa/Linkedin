@@ -1,0 +1,36 @@
+.titleResources{
+    font-size: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.titleResources::before, .titleResources::after{
+    content: '';
+    width: 80px;
+    height: 1px;
+    background-color: #FFF621;
+}
+
+.listResources{
+    list-style: disc;
+    margin-bottom: 30px;
+}
+
+.titleAboutResources{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.resourcesList{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.textBetween, .textUnder{
+    margin-bottom: 30px;
+}

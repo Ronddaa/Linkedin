@@ -44,15 +44,15 @@ function addSwiperClasses() {
       }
     }
 
-    function addClass(element, className) {
-      if (element && !element.classList.contains(className)) {
-        element.classList.add(className);
+    function addClass(swiperContainer, addSwiperContainer) {
+      if (swiperContainer && !swiperContainer.classList.contains(classaddSwiperContainerName)) {
+        swiperContainer.classList.add(addSwiperContainer);
       }
     }
 
-    function removeClass(element, className) {
-      if (element && element.classList.contains(className)) {
-        element.classList.remove(className);
+    function removeClass(swiperContainer, addSwiperContainer) {
+      if (swiperContainer && swiperContainer.classList.contains(className)) {
+        swiperContainer.classList.remove(className);
       }
     }
 

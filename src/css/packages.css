@@ -1,3 +1,7 @@
+.packagesTablet{
+    display: none;
+}
+
 .titlePackages{
     font-size: 30px;
     margin-bottom: 50px;
@@ -86,6 +90,14 @@
 }
 
 @media (min-width: 768px){
+    .packagesMobileDesc{
+        display: none;
+    }
+
+    .packagesTablet{
+        display: block;
+    }
+
     .titlePackages{
         font-size: 35px;
     }
@@ -107,6 +119,19 @@
 }
 
 @media (min-width: 1158px){
+
+    .packagesTablet{
+        display: none;
+    }
+
+    .packagesMobileDesc{
+        display: block;
+    }
+
+    .wrapperCardLevel{
+        gap: 20px;
+    }
+
     .titlePackages{
         font-size: 60px;
         margin-bottom: 100px;
